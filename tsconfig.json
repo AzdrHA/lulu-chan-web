@@ -22,7 +22,7 @@
     "outDir": "./dist/",
     "paths": {
       "@images/*": ["src/assets/images/*"],
-      "@scss/*": ["src/assets/scss/*"],
+      "@styles/*": ["src/assets/styles/*"],
       "@components/*": ["src/components/*"],
       "@screens/*": ["src/screens/*"],
       "@app/*": ["src/*"],

@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './screens/Home/Home';
-import '@scss/index.scss';
-import './index.css';
+import {BrowserRouter} from 'react-router-dom';
+import {BaseRouter} from '@app/router/BaseRouter';
+import '@styles/index.css';
 
 ReactDOM.render(
     <React.StrictMode>
-      <Home/>
+      <BrowserRouter>
+        <BaseRouter/>
+      </BrowserRouter>
     </React.StrictMode>,
-    document.getElementById('root'),
+    document.getElementById('__lulu-chan'),
 );
 
